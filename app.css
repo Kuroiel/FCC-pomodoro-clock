@@ -1,0 +1,31 @@
+button {
+	text-align: center;
+	height: 60px;
+	width: 70px;
+font-size: 22px;
+margin: 5px 30px;
+}
+body {
+  text-align: center;
+  	background-color: gray;
+
+}
+#break-length {
+	font-size: 30px;
+}
+#session-length {
+	font-size: 17px;
+}
+#breaks {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    text-align: center;
+}
+#breaks > button, #breaks > p, #sessions > button, #sessions > p {
+    display: inline-block;
+
+}
+#start-stop {
+	width: 120px;
+}
